@@ -15,21 +15,13 @@ This project is under the MIT License.
     DATABASE_HOST = 'YOUR_DATABASE_HOST'
     DATABASE_PASSWORD = 'YOUR_PASSWORD'
 ```
-- Create the database table (for the first time)
-
-run the code below
-
+- Create the database table (for the first time) and install packages
+     
+     run the code below - make sure permission is set ( chmod +x setup.sh )
 ```
-    $python
-    >>> import app
-    >>> app.createDBTable()
+  $ ./setup.sh
 ```
 
-- Install the required library
-
-```
-  $ pip install -r requirements.txt
-```
 
 - Run the app
 
